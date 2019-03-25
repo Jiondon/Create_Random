@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
             //点击开始按钮
             //随机生成7个数字
             int startNum=1;
-            int endNum=33;
+            int endNum=33;  //random.nextInt()函数生成随机的时候 endNum值为33
             Random random = new Random();
             String[] numArray = new String[33];
             for(int i=0;i<33;i++){
@@ -136,33 +136,43 @@ public class MainActivity extends AppCompatActivity {
             for(int i=0;i<33;i++){
                 list.add(String.valueOf(i+1));
             }
+
+            long randomNum = System.currentTimeMillis();
+//            int ran3 = (int) (randomNum%(endNum-startNum)+startNum);
+
             int num1 = random.nextInt(endNum - startNum+1) + startNum - 1;
 //            txt1.setText(list.get(num1));
+//            int num1 = (int) (randomNum%(endNum-startNum)+startNum);
             list_string.add(list.get(num1));
             list.remove(num1);
 
             int num2 = random.nextInt(endNum-1 - startNum+1) + startNum - 1;
 //            txt2.setText(list.get(num2));
+//            int num2 = (int) (randomNum%(endNum-startNum)+startNum);
             list_string.add(list.get(num2));
             list.remove(num2);
 
             int num3 = random.nextInt(endNum-2 - startNum+1) + startNum - 1;
 //            txt3.setText(list.get(num3));
+//            int num3 = (int) (randomNum%(endNum-startNum)+startNum);
             list_string.add(list.get(num3));
             list.remove(num3);
 
             int num4 = random.nextInt(endNum-3 - startNum+1) + startNum - 1;
 //            txt4.setText(list.get(num4));
+//            int num4 = (int) (randomNum%(endNum-startNum)+startNum);
             list_string.add(list.get(num4));
             list.remove(num4);
 
             int num5 = random.nextInt(endNum-4 - startNum+1) + startNum - 1;
 //            txt5.setText(list.get(num5));
+//            int num5 = (int) (randomNum%(endNum-startNum)+startNum);
             list_string.add(list.get(num5));
             list.remove(num5);
 
             int num6 = random.nextInt(endNum-5 - startNum+1) + startNum - 1;
 //            txt6.setText(list.get(num6));
+//            int num6 = (int) (randomNum%(endNum-startNum)+startNum);
             list_string.add(list.get(num6));
             list.remove(num6);
 
@@ -190,8 +200,9 @@ public class MainActivity extends AppCompatActivity {
             txt6.setText(list_string.get(5));
 
             int startNum1=1;
-            int endNum1=16;
+            int endNum1=17;
             int num7 = random.nextInt(endNum1 - startNum1+1) + startNum1;
+//            int num7 = (int) (randomNum%(endNum1-startNum1)+startNum1);
             txt7.setText(String.valueOf(num7));
             //将随机数显示在view中
             list.clear();
