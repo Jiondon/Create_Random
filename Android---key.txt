@@ -1,0 +1,11 @@
+
+F:\Android\create_random.jks
+密码：123456
+alias：create_random   密码：123456
+
+first and last name:xiaodongLi
+xiaodongLi
+xiaodongLi
+HeFei
+AnHui
+cn
