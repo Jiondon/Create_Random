@@ -11,63 +11,64 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center|center_horizontal|center_vertical">
-
-    <LinearLayout
-        android:layout_width="356dp"
-        android:layout_height="30dp"
         android:gravity="center">
 
-        <TextView
-            android:id="@+id/first_red"
-            android:layout_width="50dp"
+        <LinearLayout
+            android:id="@+id/colorBall"
+            android:layout_width="356dp"
             android:layout_height="30dp"
-            android:text="1"
-            android:textColor="@color/red" />
+            android:gravity="center">
 
-        <TextView
-            android:id="@+id/second_red"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:text="2"
-            android:textColor="@color/red" />
+            <TextView
+                android:id="@+id/first_red"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="1"
+                android:textColor="@color/red" />
 
-        <TextView
-            android:id="@+id/third_red"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:text="3"
-            android:textColor="@color/red" />
+            <TextView
+                android:id="@+id/second_red"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="2"
+                android:textColor="@color/red" />
 
-        <TextView
-            android:id="@+id/four_red"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:text="4"
-            android:textColor="@color/red" />
+            <TextView
+                android:id="@+id/third_red"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="3"
+                android:textColor="@color/red" />
 
-        <TextView
-            android:id="@+id/five_red"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:text="5"
-            android:textColor="@color/red" />
+            <TextView
+                android:id="@+id/four_red"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="4"
+                android:textColor="@color/red" />
 
-        <TextView
-            android:id="@+id/six_red"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:text="6"
-            android:textColor="@color/red" />
+            <TextView
+                android:id="@+id/five_red"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="5"
+                android:textColor="@color/red" />
 
-        <TextView
-            android:id="@+id/seven_blue"
-            android:layout_width="50dp"
-            android:layout_height="30dp"
-            android:text="7"
-            android:textColor="@color/blue" />
+            <TextView
+                android:id="@+id/six_red"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="6"
+                android:textColor="@color/red" />
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/seven_blue"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:text="7"
+                android:textColor="@color/blue" />
+
+        </LinearLayout>
 
         <Button
             android:id="@+id/start"
@@ -87,5 +88,6 @@
             android:text="版权所有：xiaodongLi 2019-3"/>
     </LinearLayout>
 
+    //查询历史号码
 
 </android.support.constraint.ConstraintLayout>
